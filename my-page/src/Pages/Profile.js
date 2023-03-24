@@ -5,6 +5,7 @@ import {SiLeetcode as Leetcode} from 'react-icons/si'
 import {FaLinkedinIn as Linkedin} from 'react-icons/fa'
 import Slides from '../Components/Slides';
 import Slides2 from '../Components/Slides2';
+import PicLineBar from '../Components/PicLineBar';
 
 
 const Profile = forwardRef((props, ref) => {
@@ -38,7 +39,7 @@ const Profile = forwardRef((props, ref) => {
   const styles = {
     myStyle: {
       background:'#F0EFF4',
-      paddingTop: '4rem',
+      // paddingTop: '4rem',
       paddingBottom: '6rem',
     },
     container: {
@@ -116,6 +117,7 @@ const Profile = forwardRef((props, ref) => {
 
     return (
       <div id = 'profilePage' className="content-section" style={styles.myStyle} ref={ref}>
+        <PicLineBar/>
         <div className="container personal-info" >
           <div className="row">
             <div className="col-lg-4" style={styles.container}>

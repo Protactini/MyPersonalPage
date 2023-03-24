@@ -27,7 +27,7 @@ export const Slides2 = (props) => {
 
   return (
     <div style={{display: 'flex', justifyContent: "center",alignItems: "center", marginTop: '20px', marginBottom: '20px', marginLeft:'30px', marginRight:'30px'}}>
-       <div className="row featurette" style={{width: '90%', justifyContent: "center",alignItems: "center",}}>
+       <div className="row featurette" style={{width: '85%', justifyContent: "center",alignItems: "center",}}>
             <div className="col-md-4">
                 <div className="profile-image-container" style={styles.companyImageContainer}>
                 <img src={svbPic} alt="Your Name" className="profile-image" style={styles.companyPic}/>
