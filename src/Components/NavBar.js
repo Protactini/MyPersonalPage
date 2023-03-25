@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react';
-
-import { connect } from 'react-redux'
 import { Outlet } from 'react-router-dom'
 import signature from "../Components/img/signature.png";
 
@@ -80,9 +78,5 @@ export const NavBar = (props) => {
     </>
   )
 }
-
-const mapStateToProps = (state) => ({})
-
-const mapDispatchToProps = {}
 
 export default (NavBar)

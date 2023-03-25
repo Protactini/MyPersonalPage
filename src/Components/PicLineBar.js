@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ASU from "../Components/img/asu.webp";
+import ASU from "../Components/img/asu.png";
 import Epics from "../Components/img/epics.jpg";
 import SVB from "../Components/img/SVB_LOGO.jpg";
 import BeaconFire from "../Components/img/beaconfire.jpeg";

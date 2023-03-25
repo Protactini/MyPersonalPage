@@ -1,5 +1,5 @@
 import React, { forwardRef, useState} from 'react';
-import profilePic from "../Components/img/Coffee.jpeg";
+import profilePic from "../Components/img/coffee.jpeg";
 import {BsGithub as Github} from 'react-icons/bs';
 import {SiLeetcode as Leetcode} from 'react-icons/si'
 import {FaLinkedinIn as Linkedin} from 'react-icons/fa'
@@ -39,7 +39,6 @@ const Profile = forwardRef((props, ref) => {
   const styles = {
     myStyle: {
       background:'#F0EFF4',
-      // paddingTop: '4rem',
       paddingBottom: '6rem',
     },
     container: {
@@ -122,7 +121,7 @@ const Profile = forwardRef((props, ref) => {
           <div className="row">
             <div className="col-lg-4" style={styles.container}>
               <div className="profile-image-container" style={styles.profileImageContainer}>
-                <img src={profilePic} alt="Your Name" className="profile-image" style={styles.profilePic}/>
+                <img src={profilePic} alt="Profile Pic" style={styles.profilePic}/>
               </div>
               <div className='mt-4' style={styles.buttons}>
                 <li >
