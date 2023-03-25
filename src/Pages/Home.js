@@ -1,5 +1,8 @@
 import React, { forwardRef } from 'react';
 
+
+import backgroundImg1 from "../Components/img/F_WYSS_1-1.jpg"
+
 import profilePic from "../Components/img/Coffee.jpeg";
 import backgroundImg from "../Components/img/F_WYSS_1-1.jpg"
 
