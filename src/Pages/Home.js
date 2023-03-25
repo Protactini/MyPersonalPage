@@ -13,12 +13,7 @@ export const Home = forwardRef((props, ref) => {
 
     const myStyles = {
       backgroundImg: {
-        // height:'100vh',
-        // display: "flex",
-        // flexDirection: "column",
-        // alignItems: "center",
-        // justifyContent: "center",
-        backgroundImage: `url(${backgroundImg})`,
+        // backgroundImage: `url(${backgroundImg})`,
         // backgroundImage: "url('https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/F_WYSS_1-2.jpg?crop=0%2C234%2C4000%2C2200&wid=4000&hei=2200&scl=1.0')",
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
@@ -89,10 +84,10 @@ export const Home = forwardRef((props, ref) => {
     return (
       <div id = 'homePage' className="homepage-container" style={containerStyle} ref={ref}>
         <div className="overlay" style={myStyles.overlay}></div>
-        <img className="background-image" style={myStyles.backgroundImg} alt="Background-Pic"></img>
+        <img src={backgroundImg} className="background-image" style={myStyles.backgroundImg} alt="Background-Pic"></img>
         <div className="profile-container" style={myStyles.profileContainer}>
           <div className="profile-image-container" style={myStyles.profileImageContainer}>
-            <img src={profilePic} alt="Your Name" className="profile-image" style={myStyles.profileImage}/>
+            <img src={profilePic} alt="Your Name" className="profile-image" style={myStyles.profileImage}></img>
           </div>
           <div className="profile-info-container">
             <h1 className="profile-name" style={myStyles.profileName}>Alex Zhu</h1>
