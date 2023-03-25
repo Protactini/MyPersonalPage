@@ -5,9 +5,6 @@ import backgroundImg from "../Components/img/F_WYSS_1-1.jpg"
 export const Home = forwardRef((props, ref) => {
 
     const containerStyle={
-      // backgroundImage: "url('https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/F_WYSS_1-2.jpg?crop=0%2C234%2C4000%2C2200&wid=4000&hei=2200&scl=1.0')",
-      // marginTop:'-70px',
-      // fontSize:'50px',
       height: '100vh',
     };
 
@@ -18,13 +15,16 @@ export const Home = forwardRef((props, ref) => {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundAttachment: 'fixed',
-        backgroundPosition: "center center",
+        backgroundPosition: "left center",
         zIndex: -2,
         position: "absolute",
         top: 0,
         left: 0,
         right: 0,
         bottom: 0,
+        height: 'auto',
+        width:'100%',
+        minWidth: '200vh',
       },
       profileContainer: {
         display: "flex",
@@ -76,6 +76,8 @@ export const Home = forwardRef((props, ref) => {
         bottom: 0,
         backgroundColor: "rgba(0, 0, 0, 0.5)",
         zIndex: -1,
+        height: '100%',
+        width:'100%',
       },
     };
 
