@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import profilePic from "../Components/img/coffee.jpg";
-// import backgroundImg from "../Components/img/F_WYSS_1-1.jpg"
-import backgroundImg from "../Components/img/F_WYSS_1-1.webp"
+import backgroundImg from "../Components/img/F_WYSS_1-1.jpg"
+// import backgroundImg from "../Components/img/F_WYSS_1-1.webp"
 
 export const Home = forwardRef((props, ref) => {
 
