@@ -1,6 +1,7 @@
 import React, { forwardRef } from 'react';
 import profilePic from "../Components/img/coffee.jpg";
-import backgroundImg from "../Components/img/F_WYSS_1-1.jpg"
+// import backgroundImg from "../Components/img/F_WYSS_1-1.jpg"
+import backgroundImg from "../Components/img/F_WYSS_1-1.webp"
 
 export const Home = forwardRef((props, ref) => {
 
@@ -15,16 +16,15 @@ export const Home = forwardRef((props, ref) => {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundAttachment: 'fixed',
-        backgroundPosition: "left center",
+        backgroundPosition: "center",
         zIndex: -2,
         position: "absolute",
         top: 0,
         left: 0,
         right: 0,
         bottom: 0,
-        height: 'auto',
+        height: '100%',
         width:'100%',
-        minWidth: '200vh',
       },
       profileContainer: {
         display: "flex",
