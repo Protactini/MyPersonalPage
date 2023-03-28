@@ -1,5 +1,6 @@
 import React, { forwardRef, useState} from 'react';
-import profilePic from "../Components/img/coffee.jpg";
+import profilePic from "../Components/img/profilePic.png";
+// import profilePic from "../Components/img/coffee.jpg";
 import {BsGithub as Github} from 'react-icons/bs';
 import {SiLeetcode as Leetcode} from 'react-icons/si'
 import {FaLinkedinIn as Linkedin} from 'react-icons/fa'

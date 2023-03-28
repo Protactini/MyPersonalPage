@@ -1,19 +1,35 @@
 import React, { forwardRef } from 'react';
+
+import {AiTwotoneMail as Email, AiFillPhone as Phone} from 'react-icons/ai';
+
+
+
 const Contact = forwardRef((props, ref) => {
-  const myStyle={
-    // backgroundImage: "url('https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/F_WYSS_1-2.jpg?crop=0%2C234%2C4000%2C2200&wid=4000&hei=2200&scl=1.0')",
-    // marginTop:'-70px',
-    // fontSize:'50px',
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat',
-    height: '100vh',
-    backgroundAttachment: 'fixed',
-  };
+  const styles = {
+    pageStyle: {
+      background:'#14213D',
+      paddingTop: '4rem',
+      paddingBottom: '6rem',
+      color: '#E5E5E5',
+      display: "flex",
+      flexDirection:'column',
+      alignItems: "center",
+      justifyContent: "center",
+      fontFamily: "Times New Roman",
+    },
+  }
 
 
     return (
-      <div id = 'contactPage' style={myStyle} ref={ref}>
-        <h1>Contact Info</h1>
+      <div id = 'contactPage' style={styles.pageStyle} ref={ref}>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+              <h2 class="section-heading" style={{fontWeight: "bold",}}>Contact Me</h2>
+              <h5 class="contact-info" style={{fontSize: "20px",}}><Email/> Email: <a style={{fontSize: "18px",}} class="lead" href="mailto:hzhu85@asu.edu">hzhu85@asu.edu</a> ||  <a style={{fontSize: "18px",}} 
+              class="lead" href="mailto:protactini0819@gmail.com">protactini0819@gmail.com</a>
+              , <Phone/> Phone: <a style={{fontSize: "18px",}} class="lead" href="tel:4809384588">480-938-4588</a></h5>
+          </div>
+        </div>
       </div>
     );
   });

@@ -67,9 +67,6 @@ export const NavBar = (props) => {
               <li className="nav-item">
                 <a id ='contact' className={"nav-link " + (props.currentSection  === 'contactPage' ? 'active' : '')} href="#contactPage">Contact</a>
               </li>
-              <li className="nav-item">
-                <a className={"nav-link " + (props.currentSection  === 'contact' ? 'active' : '')} href="/">Gitlab</a>
-              </li>
             </ul>
           </div>
         </div>
