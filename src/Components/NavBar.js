@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Outlet } from 'react-router-dom'
+import Button from 'react-bootstrap/Button';
+
 import signature from "../Components/img/signature.png";
+import Resume from "../Components/doc/Hongzhi_Resume.pdf";
+import {AiOutlineFilePdf as ResumeIcon} from 'react-icons/ai';
+
 
 
 export const NavBar = (props) => {
@@ -66,6 +71,9 @@ export const NavBar = (props) => {
               </li>
               <li className="nav-item">
                 <a id ='contact' className={"nav-link " + (props.currentSection  === 'contactPage' ? 'active' : '')} href="#contactPage">Contact</a>
+              </li>
+              <li className="nav-item">
+                <a id ='contact' className={"nav-link"} href="#contactPage"><ResumeIcon/>  Resume</a>
               </li>
             </ul>
           </div>

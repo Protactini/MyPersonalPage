@@ -1,7 +1,12 @@
 import React, { forwardRef, useState} from 'react';
+import Button from 'react-bootstrap/Button';
+
+
+
 import profilePic from "../Components/img/profilePic.png";
-// import profilePic from "../Components/img/coffee.jpg";
+import Resume from "../Components/doc/Hongzhi_Resume.pdf";
 import {BsGithub as Github} from 'react-icons/bs';
+import {AiOutlineFilePdf as ResumeIcon} from 'react-icons/ai';
 import {SiLeetcode as Leetcode} from 'react-icons/si'
 import {FaLinkedinIn as Linkedin} from 'react-icons/fa'
 import Slides from '../Components/Slides';
@@ -150,6 +155,12 @@ const Profile = forwardRef((props, ref) => {
                   I have a Master's degree in Computer Engineering from Arizona State University, 
                   and I am well-versed in various programming languages and technical tools.</p>
                 <p>I finished my position at Silicon Valley Bank as a Back-end Developer this year and actively seeking job opportunities that will allow me to leverage my strong background in computer engineering.. </p>
+                <div style={{display: "flex", justifyContent: "center", alignItems: "center",}}>
+                  <Button variant="secondary" size="lg" href={Resume} download="Alex Zhu - Resume.pdf" style={{display: "flex", justifyContent: "center", alignItems: "center",width:"130px", height: "60px", borderRadius: '2px'}}>
+                    <ResumeIcon/>  Resume
+                  </Button>
+                </div>
+                
               </div>
             </div>
 

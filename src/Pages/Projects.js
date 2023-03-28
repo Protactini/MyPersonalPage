@@ -11,6 +11,9 @@ import Project2 from "../Components/img/project2.png";
 import Project3 from "../Components/img/project3.png";
 import Project3Detail from "../Components/img/project3-detail.png";
 
+import Resume from "../Components/doc/Hongzhi_Resume.pdf";
+
+
 
 
 const Projects = forwardRef((props, ref) => {
