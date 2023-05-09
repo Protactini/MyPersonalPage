@@ -94,7 +94,7 @@ export const Home = forwardRef((props, ref) => {
           </div>
           <div className="profile-info-container">
             <h1 className="profile-name" style={myStyles.profileName}>Alex Zhu</h1>
-            <h2 className="profile-position" style={myStyles.profilePosition}>Former back-end developer in SVB, Looking for a SDE posotion</h2>
+            <h2 className="profile-position" style={myStyles.profilePosition}>Former back-end developer in SVB, Looking for a SDE position</h2>
           </div>
         </div>
       </div>
